@@ -60,7 +60,7 @@ As we could see, a mean of 5.812 it's very low about quality. So, the challenge 
 
 **11. Quality x Free Sulfur Dioxide:** The bests types of wine have free sulfur dioxide between 20 and 70 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 20 and 64 can be interesting.
 
-### Step 5: Setting chemical parameters 
+### Step 5: Setting chemical parameters and calculating new mean
 Now, taking the bests values for each column and filtering them, the tendency is improve the quality. Checking this up:
 
         wine_df = wine_df[wine_df['alcohol'] >= 10.920]
@@ -74,8 +74,14 @@ Now, taking the bests values for each column and filtering them, the tendency is
         wine_df = wine_df[(wine_df['pH'] >= 2.890) & (wine_df['pH'] <= 3.540)]
         wine_df = wine_df[(wine_df['sulphates'] >= 0.360) & (wine_df['sulphates'] <= 0.900)]
         wine_df = wine_df[(wine_df['free sulfur dioxide'] <= 64) & (wine_df['total sulfur dioxide'] >= 20)]
-                
 
+New mean:
+
+        mean_quality = wine_df['quality'].mean()
+
+The new mean is 7.104
+
+### Conclusion
 
 
 
