@@ -82,6 +82,22 @@ New mean:
 The new mean is 7.104
 
 ### Conclusion
+Taking strategical values could improve the wine quality. So, the company who produces the wines should focus on the range of the values for each chemical parameter:
+
+- **Alcohol**: Higher than 10.92
+- **Volatile Acidity**: Between 0.280 and 0.370
+- **Fixed Acidity**: Between 6.600 and 7.300
+- **Citric Acid**: Between 0.280 and 0.370
+- **Residual Sugar**: Between 2.300 and 6.200
+- **Chlorides**: Lower than 0.034
+- **Density**: Between 0.989 and 0.992
+- **Total Sulfur Dioxide**: Between 80 and 129
+- **pH**: Between 2.890 and 3.540
+- **Sulphates**: Between 0.360 and 0.900
+- **Free Sulfur Dioxide**: Between 20 and 64
+
+The critical parameter is the density, because it has the shortest range of values (0.989 to 0.992). So, it needs to have the best precision possible to get the range. 
+Thus, producing wines with this parameters above, you probably get a good wine to enjoy.
 
 
 
