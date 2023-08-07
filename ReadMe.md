@@ -27,7 +27,14 @@ In this case, after analysing the resume of informations (columns name, number o
 
     wine_df = wine_df.rename(columns{'Unnamed 0':'ID'})
 
-### Step 2: Calculating the wine quality's mean
+### Step 3: Calculating the initial wine quality's mean
+With the dataset informations, the initial quality mean is:
+
+        mean = wine_df['quality'].mean()
+
+The mean in this case is 5.812.
+
+
 
 
 
