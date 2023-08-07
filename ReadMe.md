@@ -33,6 +33,8 @@ With the dataset informations, the initial quality mean is:
         mean = wine_df['quality'].mean()
 
 The mean in this case is 5.812.
+<span style="color:#B81365">Colored text with hexadecimal</span>
+
 
 
 
