@@ -36,7 +36,13 @@ With the dataset informations, the initial quality mean is:
 The mean in this case is 5.812.
 
 ### Step 4: Generating graphics to get some insights 
-As we could see, a mean of 5.812 it's very low about quality. So, the challenge is reach out 7.000, at least. To help us with this challenge, some graphics were generated, relating the quality (x axis) in funtion of the chemical parameters (y Axis). Some insights could be get:
+As we could see, a mean of 5.812 it's very low about quality. So, the challenge is reach out 7.000, at least. To help us with this challenge, some graphics were generated, relating the quality (x axis) in funtion of the chemical parameters (y axis). 
+
+        for coluna in wine_df.columns:
+            grafic = px.histogram(wine_df, x = coluna, color = 'quality')
+            grafic.show()
+            
+Some insights could be get:
 
 **1. Quality x Alcohol:** The bests types of wine have more alcohol in its composition compared with the worsts ones. Analysing deeply the graphic, values higher than 10.920 can be interesting.
 
