@@ -45,18 +45,25 @@ As we could see, a mean of 5.812 it's very low about quality. So, the challenge 
 Some insights could be get:
 
 **1. Quality x Alcohol:** The bests types of wine have more alcohol in its composition compared with the worsts ones. Analysing deeply the graphic, values higher than 10.920 can be interesting.
+![quality_x_alcohol-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/e62472c8-9308-4f35-9fdd-03edc2da0d7d)
 
 **2. Quality x Volatile Acidity:** The bests types of wine have a volatile acidity between 0.150 and 0.450 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 0.280 and 0.370 can be interesting.
+![quality_x_volatile_acidity-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/4edb4e0e-4b96-4fac-958c-f6dbd9ae33cc)
 
 **3. Quality x Fixed Acidity:** The bests types of wine have a fixed acidity between 6.000 and 7.500 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 6.600 and 7.300 can be interesting.
+![quality_x_fixed_acidity-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/dd196626-dd8e-4fc9-ac1c-b192ae05bdf2)
 
 **4. Quality x Citric Acid:** The bests types of wine have a citric acid between 0.250 and 0.400 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 0.280 and 0.320 can be interesting.
+![quality_x_citric_acid-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/0806a314-9134-47f6-822f-f3af68c16a05)
 
 **5. Quality x Residual Sugar:** The bests types of wine have a residual sugar between 1.000 and 7.000 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 2.300 and 6.200 can be interesting.
+![quality_x_residual_sugar-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/078f6651-8fd5-4b48-9ec9-7afc51c467aa)
 
 **6. Quality x Chlorides:** The bests types of wine have less chlorides in its composition compared with the worsts ones. Analysing deeply the graphic, values lower than 0.034 can be interesting.
+![quality_x_chlorides-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/707adb0f-8da3-49e1-aa32-8e0cc6a50574)
 
 **7. Quality x Density:** The bests types of wine have density between 0.980 and 0.990 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 0.989 and 0.992 can be interesting.
+![quality_x_density-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/89cbe9c0-8cda-46e2-80fa-ff8ce98dd60d)
 
 **8. Quality x Total Sulfur Dioxide:** The bests types of wine have total sulfur dioxide between 80 and 150 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 80 and 129 can be interesting.
 
