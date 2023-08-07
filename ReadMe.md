@@ -14,7 +14,7 @@ In this dataset, we have some chemical parameters about types of wine and how th
 - pH
 - Sulphates
 - Free Sulfur Dioxide
-- Type
+- Type  
 
 ### Step 1: Importing the dataset and getting a short resume of the columns content
 When we have a problem to solve involving a data analysis, the first thing to do is importing and reading the dataset. So, we can use the libraby "pandas" to help us with:
