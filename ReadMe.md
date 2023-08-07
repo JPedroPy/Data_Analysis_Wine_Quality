@@ -1,4 +1,4 @@
-# Wine Quality 🍷
+# Wine Quality
 ## Analysing Chemical Parameters to Improve the Quality
 
 In this dataset, we have some chemical parameters about types of wine and how they are related with the quality, in a way to set them to improve the quality. The parameters are:
@@ -97,7 +97,7 @@ Taking strategical values could improve the wine quality. So, the company who pr
 - **Free Sulfur Dioxide**: Between 20 and 64
 
 The critical parameter is the density, because it has the shortest range of values (0.989 to 0.992). So, it needs to have the best precision possible to get the range. 
-Thus, producing wines with this parameters above, you probably get a good wine to enjoy.
+Thus, producing wines with this parameters above, you probably get a good wine to enjoy 🍷.
 
 
 
