@@ -33,7 +33,21 @@ With the dataset informations, the initial quality mean is:
         mean = wine_df['quality'].mean()
 
 The mean in this case is 5.812.
-<span style="color:#B81365">Colored text with hexadecimal</span>
+
+### Step 4: Generating graphics to get some insights 
+As we could see, a mean of 5.812 it's very low about quality. So, the challenge is reach out 7.000, at least. To help us with this challenge, some graphics were generated, relating the quality (x axis) in funtion of the chemical parameters (y Axis). Some insights could be get:
+
+**1. Quality x Alcohol:** The bests types of wine have more alcohol in its composition compared with the worsts ones. Analysing deeply the graphic, values higher than 10.920 can be interesting.
+
+**2. Quality x Volatile Acidity:** The bests types of wine have a volatile acidity between 0.150 and 0.450 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 0.280 and 0.370 can be interesting.
+
+**3. Quality x Fixed Acidity:** The bests types of wine have a volatile acidity between 6.000 and 7.500 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 6.600 and 7.300 can be interesting.
+
+**4. Quality x Citric Acid:** The bests types of wine have a volatile acidity between 0.250 and 0.400 in its composition compared with the worsts ones. Analysing deeply the graphic, values between 0.280 and 0.320 can be interesting.
+
+
+
+
 
 
 
