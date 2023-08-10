@@ -19,6 +19,7 @@ In this dataset, we have some chemical parameters about types of wine and how th
 When there's a problem to solve involving data analysis, the first thing to do is importing and reading the dataset. So, it can be used the libraby "pandas" to help with:
 
     import pandas as pd
+    
     wine_df = pd.read_excel('wine_quality.xlsx')
     wine_df.info()
 
@@ -41,6 +42,7 @@ A mean of 5.812 it's very low about quality. So, the challenge is reach out 7.00
 The Pearson's correlation is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. Using the library "seaborn" from python to helps with:
 
         import seaborn as sns
+        
         correlation = wine_df.corr()
         sns.heatmap(correlation, annot = True, fmt = ".1f", vmax = 1, vmin = -1)
 
