@@ -40,6 +40,7 @@ A mean of 5.812 it's very low about quality. So, the challenge is reach out 7.00
 
 The Pearson's correlation is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. Using the library "seaborn" from python to helps with:
 
+        import seaborn as sns
         correlation = wine_df.corr()
         sns.heatmap(correlation, annot = True, fmt = ".1f", vmax = 1, vmin = -1)
 
@@ -51,6 +52,8 @@ Analysing the matrix, the most part of the correlations are very weak. Only two 
 
 About the graphical analysis, some graphics were generated, relating the quality (x axis) in funtion of the chemical parameters (y axis). 
 
+        import plotly.express as px
+        
         for coluna in wine_df.columns:
             grafic = px.histogram(wine_df, x = coluna, color = 'quality')
             grafic.show()
