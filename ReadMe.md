@@ -119,7 +119,7 @@ New mean:
 The new mean is `7.104`.
 
 ### Conclusion
-Adopting `strategical values` was able to `improve` the wine quality by `22.23%` (from `5.812` to `7.10`4). Therefore, the wine-producing company should focus on the `range of values` for each chemical parameter:
+Adopting `strategical values` was able to `improve` the wine quality by `22.23%` (from `5.812` to `7.104`). Therefore, the wine-producing company should focus on the `range of values` for each chemical parameter:
 
 - **Alcohol**: Higher than 10.92
 - **Volatile Acidity**: Between 0.280 and 0.370
@@ -133,7 +133,7 @@ Adopting `strategical values` was able to `improve` the wine quality by `22.23%`
 - **Sulphates**: Between 0.360 and 0.900
 - **Free Sulfur Dioxide**: Between 20 and 64
 
-The `critical` parameter is `density`, as it has the `narrowest` range of values `(0.989 to 0.992)`. Therefore, it requires the highest precision in order to cover the range effectively. Consequently, producing wines with these parameters above will likely result in a delightful wine to enjoy.
+The `critical` parameter is `density`, as it has the narrowest range of values (`0.989` to `0.992`). Therefore, it requires the highest precision in order to cover the range effectively. Consequently, producing wines with these parameters above will likely result in a delightful wine to enjoy.
 
 
 
