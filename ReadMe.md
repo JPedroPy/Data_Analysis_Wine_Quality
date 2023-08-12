@@ -52,7 +52,7 @@ The `Pearson's correlation` is very useful in data analysis, because it can show
 
 Analysing the matrix, the most part of the correlations are very weak. Only two correlations are relatively strong: `density` with `alcohol (-0.7)` and `total sulfur dioxide` with `free sulfur dioxide (+0.7)`. In this case, we can predict that the lower density is, higher the alcohol will be and vice versa (strong negative correlation) and lower the total sulfur dioxide is, higher the free sulfur dioxide will be and vice versa (strong positive correlation). When looking at the quality column, there isn't any variable who has a strong correlation. The highest value is `+0.4` (correlation between `quality` and `alcohol`), a weak correlation.
 
-About graphical analysis, some graphics were generated, relating the quality and chemical parameters. 
+About graphical analysis, some graphics were generated, relating the quality and chemical parameters, using the library [plotly.express](https://plotly.com/python-api-reference/plotly.express.html).
 
         import plotly.express as px
         
