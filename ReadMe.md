@@ -32,7 +32,7 @@ In this case, after analysing the resume of informations (columns name, number o
 ### 3. Calculating the initial wine quality's mean
 With the dataset informations, the initial quality mean is:
 
-        initial_mean = wine_df['quality'].mean()
+    initial_mean = wine_df['quality'].mean()
 
 The initial mean is `5.812`.
 
@@ -41,10 +41,10 @@ A mean of `5.812` it's very low about quality. So, the challenge is reach out `7
 
 The `Pearson's correlation` is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. The libraries [pandas](https://pandas.pydata.org/docs/) and [seaborn](https://seaborn.pydata.org/#) help us with, using the funtion `.corr()` from `pandas` and the `heatmap` from `seaborn`.
 
-        import seaborn as sns
+    import seaborn as sns
         
-        correlation = wine_df.corr()
-        sns.heatmap(correlation, annot = True, fmt = ".1f", vmax = 1, vmin = -1)
+    correlation = wine_df.corr()
+    sns.heatmap(correlation, annot = True, fmt = ".1f", vmax = 1, vmin = -1)
 
 ## **Heatmap**: 
 
@@ -54,11 +54,11 @@ Analysing the matrix, the most part of the correlations are very weak. Only two 
 
 About graphical analysis, some graphics were generated, relating the quality and chemical parameters, using the library [plotly.express](https://plotly.com/python-api-reference/plotly.express.html).
 
-        import plotly.express as px
+    import plotly.express as px
         
-        for coluna in wine_df.columns:
-            grafic = px.histogram(wine_df, x = coluna, color = 'quality')
-            grafic.show()
+    for coluna in wine_df.columns:
+        grafic = px.histogram(wine_df, x = coluna, color = 'quality')
+        grafic.show()
             
 Analysing the informations above, some insights could be get:
 
@@ -77,7 +77,7 @@ Analysing the informations above, some insights could be get:
 **5. Quality x Residual Sugar:** The `bests types` of wine have a residual sugar `between 1.000 and 7.000` in its composition compared with the worsts ones. Analysing deeply the graphic, values `between 2.300 and 6.200` can be interesting.
 ![quality_x_residual_sugar-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/078f6651-8fd5-4b48-9ec9-7afc51c467aa)
 
-**6. Quality x Chlorides:** The `bests types` of wine have `less chlorides` in its composition compared with the worsts ones. Analysing deeply the graphic, values `lower than 0.034 can be interesting.
+**6. Quality x Chlorides:** The `bests types` of wine have `less chlorides` in its composition compared with the worsts ones. Analysing deeply the graphic, values `lower` than `0.034` can be interesting.
 ![quality_x_chlorides-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/707adb0f-8da3-49e1-aa32-8e0cc6a50574)
 
 **7. Quality x Density:** The `bests types` of wine have density `between 0.980 and 0.990` in its composition compared with the worsts ones. Analysing deeply the graphic, values `between 0.989 and 0.992` can be interesting.
