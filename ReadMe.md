@@ -133,7 +133,7 @@ Adopting `strategical values` was able to `improve` the wine quality by `22.23%`
 - **Sulphates**: Between 0.360 and 0.900
 - **Free Sulfur Dioxide**: Between 20 and 64
 
-The critical parameter is density, as it has the narrowest range of values `(0.989 to 0.992)`. Therefore, it requires the highest precision in order to cover the range effectively. Consequently, producing wines with these parameters above will likely result in a delightful wine to enjoy.
+The `critical` parameter is `density`, as it has the `narrowest` range of values `(0.989 to 0.992)`. Therefore, it requires the highest precision in order to cover the range effectively. Consequently, producing wines with these parameters above will likely result in a delightful wine to enjoy.
 
 
 
