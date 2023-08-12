@@ -95,10 +95,10 @@ Analysing the informations above, some insights could be get:
 **11. Quality x Free Sulfur Dioxide:** The `bests types` of wine have free sulfur dioxide `between 20 and 70` in its composition compared with the worsts ones. Analysing deeply the graphic, values `between 20 and 64` can be interesting.
 ![quality_x_free_sulfur_dioxide-min](https://github.com/JPedroPy/Wine_Quality_Data_Analysis/assets/141521444/51190c01-fcba-4c45-bae6-59d1ac670d57)
 
-The graphics above reforce the results of `Pearson's correlation matrix`: the most part of the density are very low and the alcohol high, as well as sulfur dioxide and free sulfur dioxide are low.
+The graphics above reforce the results of Pearson's correlation matrix: the most part of the density are very low and the alcohol high, as well as sulfur dioxide and free sulfur dioxide are low.
 
 ### 5. Setting chemical parameters and calculating new mean
-Now, taking the bests values for each column and filtering them, the tendency is `improve the quality`. Checking this up:
+Now, taking the `bests values` for each column and filtering them, the tendency is `improve the quality`. Checking this up:
 
         wine_df = wine_df[wine_df['alcohol'] >= 10.920]
         wine_df = wine_df[(wine_df['volatile acidity'] <= 0.370) & (wine_df['volatile acidity'] >= 0.280)]
