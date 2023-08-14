@@ -2,17 +2,17 @@
 ## Analysing Chemical Parameters to Improve the Quality
 
 ## _Summary_
-[1. Define the problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem)
+[1. Define the problem]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem-%EF%B8%8F-return))
 
-[2. Collect Data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data)
+[2. Collect Data]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data-%EF%B8%8F-return))
 
-[3. Data Cleaning and Preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing)
+[3. Data Cleaning and Preprocessing]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing-%EF%B8%8F-return))
 
-[4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-exploratory-data-analysis-eda-and-data-analysis-techniques))
+[4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-exploratory-data-analysis-eda-and-data-analysis-techniques-%EF%B8%8F-return)
 
-[5. Interpretation of Results](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#5-interpretation-of-results)
+[5. Interpretation of Results](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#5-interpretation-of-results-%EF%B8%8F-return)
 
-[6. Conclusion and Recommendations](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#6-conclusion-and-recommendations)
+[6. Conclusion and Recommendations](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#6-conclusion-and-recommendations-%EF%B8%8F-return)
 
 ### _1. Define the problem_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
 In this dataset, we have some chemical variables about types of wine, and the goal is to understand how these parameters are related to the quality and how we can improve the quality of the wine. The variables are:
