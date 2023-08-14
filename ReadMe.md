@@ -14,7 +14,7 @@
 
 [6. Conclusion and Recommendations](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#6-conclusion-and-recommendations-%EF%B8%8F-return)
 
-### _1. Define the problem_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _1. Define the problem_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 In this dataset, we have some chemical variables about types of wine, and the goal is to understand how these parameters are related to the quality and how we can improve the quality of the wine. The variables are:
 
 * Alcohol
@@ -29,10 +29,10 @@ In this dataset, we have some chemical variables about types of wine, and the go
 * Sulphates
 * Free Sulfur Dioxide
 
-### _2. Collect Data_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _2. Collect Data_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 The data was extracted from the file `wine_quality.xlsx`, from `Kaggle`, availabre at: <https://www.kaggle.com/datasets/yasserh/wine-quality-dataset>.
 
-### _3. Data Cleaning and Preprocessing_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _3. Data Cleaning and Preprocessing_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 Using the library [pandas](https://pandas.pydata.org/docs/) to import and interprete the data:
 
     import pandas as pd
@@ -44,17 +44,17 @@ In this case, after analysing the resume of informations (columns name, number o
     wine_df = wine_df.rename(columns{'Unnamed 0':'ID'})
     wine_df = wine_df.drop(['Type'], axis = 1)
 
-### _Calculating the initial wine quality's mean_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _Calculating the initial wine quality's mean_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 With the dataset informations, the initial quality mean is:
 
     initial_mean = wine_df['quality'].mean()
 
 The initial mean is `5.812`.
 
-### _4. Data Analysis Techniques_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _4. Data Analysis Techniques_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 A mean of `5.812` it's very low about quality. So, the challenge is reach out `7.000`, at least. To help with this challenge, it will be used two artifices: a `Pearson's correlation matrix` and `histogram graphics`, to understand how the variables can interefe in the quality and how they are related to each other. 
 
-### _5. Exploratory Data Analysis (EDA) and Interpretation of Results_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _5. Exploratory Data Analysis (EDA) and Interpretation of Results_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 The `Pearson's correlation` is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. The libraries [pandas](https://pandas.pydata.org/docs/) and [seaborn](https://seaborn.pydata.org/#) help us with, using the funtion `.corr()` from `pandas` and the `heatmap` from `seaborn`.
 
     import seaborn as sns
@@ -132,7 +132,7 @@ New mean:
 
 The new mean is `7.104`.
 
-### _6. Conclusion and Recommendations_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _6. Conclusion and Recommendations_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#stages-of-analysis)
 Adopting `strategical values` was able to `improve` the wine quality by `22.23%` (from `5.812` to `7.104`). Therefore, the wine-producing company should focus on the `range of values` for each chemical parameter:
 
 - **Alcohol**: Higher than 10.92
