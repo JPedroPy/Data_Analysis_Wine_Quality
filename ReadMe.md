@@ -1,7 +1,7 @@
 # Wine Quality
 ## Analysing Chemical Parameters to Improve the Quality
 
-## _Summary_
+## _Stages of Analysis_
 [1. Define the problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem-%EF%B8%8F-return)
 
 [2. Collect Data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data-%EF%B8%8F-return)
