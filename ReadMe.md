@@ -8,9 +8,9 @@
 
 [3. Data Cleaning and Preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing)
 
-[4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing)
+[4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-exploratory-data-analysis-eda-and-data-analysis-techniques))
 
-[5. Interpretation of Results]()
+[5. Interpretation of Results](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#5-interpretation-of-results)
 
 [6. Conclusion and Recommendations]()
 
@@ -113,7 +113,7 @@ Analysing the informations above, some insights could be get:
 
 The graphics above reforce the results of Pearson's correlation matrix: the most part of the density are very low and the alcohol high, as well as sulfur dioxide and free sulfur dioxide are low.
 
-### 5. Setting chemical parameters and calculating new mean
+### Setting chemical parameters and calculating new mean
 Now, taking the `bests values` for each column and filtering them, the tendency is `improve the quality`. Checking this up:
 
         wine_df = wine_df[wine_df['alcohol'] >= 10.920]
@@ -134,7 +134,7 @@ New mean:
 
 The new mean is `7.104`.
 
-### Conclusion
+### 6. Conclusion and Recommendations
 Adopting `strategical values` was able to `improve` the wine quality by `22.23%` (from `5.812` to `7.104`). Therefore, the wine-producing company should focus on the `range of values` for each chemical parameter:
 
 - **Alcohol**: Higher than 10.92
