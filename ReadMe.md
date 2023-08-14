@@ -4,11 +4,11 @@
 ## Summary
 [1. Define the problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem)
 
-[2. Collect Data]()
+[2. Collect Data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data)
 
-[3. Data Cleaning and Preprocessing]()
+[3. Data Cleaning and Preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing)
 
-[4. Exploratory Data Analysis (EDA)]()
+[4. Exploratory Data Analysis (EDA)](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing)
 
 [5. Data Analysis Techniques]()
 
