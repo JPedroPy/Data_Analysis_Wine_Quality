@@ -16,7 +16,7 @@
 
 [7. Conclusion and Recommendations]()
 
-## 1. Define the problem
+### 1. Define the problem
 In this dataset, we have some chemical variables about types of wine, and the goal is to understand how these parameters are related to the quality and how we can improve the quality of the wine. The variables are:
 
 * Alcohol
@@ -31,28 +31,28 @@ In this dataset, we have some chemical variables about types of wine, and the go
 * Sulphates
 * Free Sulfur Dioxide
 
-### 1. Importing the dataset and getting a short resume of the columns content
-When there's a problem to solve involving data analysis, the first thing to do is importing and reading the dataset. So, it can be used the libraby [pandas](https://pandas.pydata.org/docs/) to helps with.
+### 2. Collect Data
+The data was extracted from the file `wine_quality.xlsx` and interpreted by using [pandas](https://pandas.pydata.org/docs/):
 
     import pandas as pd
     
     wine_df = pd.read_excel('wine_quality.xlsx')
     wine_df.info()
 
-### 2. Cleaning the dataset
-In this case, after analysing the resume of informations (columns name, number of rows and data type) it was noted that there isn't empty values, but the `ID` column was named wrongly and there are just two types of wines (white or red) and it can't help a lot. So, to fix it:
+### 3. Data Cleaning and Preprocessing
+In this case, after analysing the resume of informations (columns name, number of rows and data type) it was noted that there isn't `NaN`values, but the `ID` column was named wrongly and the `Type` column can't helps a lot. So:
 
     wine_df = wine_df.rename(columns{'Unnamed 0':'ID'})
     wine_df = wine_df.drop(['Type'], axis = 1)
 
-### 3. Calculating the initial wine quality's mean
+### Calculating the initial wine quality's mean
 With the dataset informations, the initial quality mean is:
 
     initial_mean = wine_df['quality'].mean()
 
 The initial mean is `5.812`.
 
-### 4. Checking correlations among variables and generating graphics to get some insights 
+### 4. Exploratory Data Analysis (EDA) 
 A mean of `5.812` it's very low about quality. So, the challenge is reach out `7.000`, at least. To help with this challenge, it will be used two artifices: a `Pearson's correlation matrix` and `histogram graphics`, to understand how the variables can interefe in the quality and how they are related to each other. 
 
 The `Pearson's correlation` is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. The libraries [pandas](https://pandas.pydata.org/docs/) and [seaborn](https://seaborn.pydata.org/#) help us with, using the funtion `.corr()` from `pandas` and the `heatmap` from `seaborn`.
