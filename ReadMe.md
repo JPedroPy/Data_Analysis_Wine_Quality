@@ -14,7 +14,7 @@
 
 [6. Conclusion and Recommendations](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#6-conclusion-and-recommendations)
 
-### 1. Define the problem
+### 1. Define the problem [⬆️](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
 In this dataset, we have some chemical variables about types of wine, and the goal is to understand how these parameters are related to the quality and how we can improve the quality of the wine. The variables are:
 
 * Alcohol
