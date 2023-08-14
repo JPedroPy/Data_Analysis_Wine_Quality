@@ -1,19 +1,35 @@
 # Wine Quality
 ## Analysing Chemical Parameters to Improve the Quality
 
-In this dataset, we have some chemical parameters about types of wine and how they are related with the quality, in a way to set them to improve it. The parameters are: [Testezin](https://github.com/JPedroPy/Data_Analysis_Wine_Quality/blob/master/ReadMe.md#4-checking-correlations-among-variables-and-generating-graphics-to-get-some-insights)
+## Summary
+[1. Define the problem]()
 
-- Alcohol
-- Volatile Acidity
-- Fixed Acidity
-- Citric Acid
-- Residual Sugar
-- Chlorides
-- Density
-- Total Sulfur Dioxide
-- pH
-- Sulphates
-- Free Sulfur Dioxide
+[2. Collect Data]()
+
+[3. Data Cleaning and Preprocessing]()
+
+[4. Exploratory Data Analysis (EDA)]()
+
+[5. Data Analysis Techniques]()
+
+[6. Interpretation of Results]()
+
+[7. Conclusion and Recommendations]()
+
+## 1. Define the problem
+In this dataset, we have some chemical variables about types of wine, and the goal is to understand how these parameters are related to the quality and how we can improve the quality of the wine. The variables are:
+
+* Alcohol
+* Volatile Acidity
+* Fixed Acidity
+* Citric Acid
+* Residual Sugar
+* Chlorides
+* Density
+* Total Sulfur Dioxide
+* pH
+* Sulphates
+* Free Sulfur Dioxide
 
 ### 1. Importing the dataset and getting a short resume of the columns content
 When there's a problem to solve involving data analysis, the first thing to do is importing and reading the dataset. So, it can be used the libraby [pandas](https://pandas.pydata.org/docs/) to helps with.
