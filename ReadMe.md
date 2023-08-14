@@ -2,11 +2,11 @@
 ## Analysing Chemical Parameters to Improve the Quality
 
 ## _Summary_
-[1. Define the problem]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem-%EF%B8%8F-return))
+[1. Define the problem](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#1-define-the-problem-%EF%B8%8F-return)
 
-[2. Collect Data]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data-%EF%B8%8F-return))
+[2. Collect Data](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#2-collect-data-%EF%B8%8F-return)
 
-[3. Data Cleaning and Preprocessing]([https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing-%EF%B8%8F-return))
+[3. Data Cleaning and Preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing-%EF%B8%8F-return)
 
 [4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-exploratory-data-analysis-eda-and-data-analysis-techniques-%EF%B8%8F-return)
 
