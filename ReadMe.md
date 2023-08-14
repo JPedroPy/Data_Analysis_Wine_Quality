@@ -39,6 +39,7 @@ Using the library [pandas](https://pandas.pydata.org/docs/) to import and interp
     
     wine_df = pd.read_excel('wine_quality.xlsx')
     wine_df.info()
+    
 In this case, after analysing the resume of informations (columns name, number of rows and data type) it was noted that there isn't `NaN`values, but the `ID` column was named wrongly and the `Type` column can't helps a lot. So:
 
     wine_df = wine_df.rename(columns{'Unnamed 0':'ID'})
