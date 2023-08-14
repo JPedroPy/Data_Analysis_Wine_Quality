@@ -8,9 +8,9 @@
 
 [3. Data Cleaning and Preprocessing](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#3-data-cleaning-and-preprocessing-%EF%B8%8F-return)
 
-[4. Exploratory Data Analysis (EDA) and Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-exploratory-data-analysis-eda-and-data-analysis-techniques-%EF%B8%8F-return)
+[4. Data Analysis Techniques](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#4-data-analysis-techniques-%EF%B8%8F-return)
 
-[5. Interpretation of Results](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#5-interpretation-of-results-%EF%B8%8F-return)
+[5. Exploratory Data Analysis (EDA) and Interpretation of Results](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#5-exploratory-data-analysis-eda-and-interpretation-of-results-%EF%B8%8F-return)
 
 [6. Conclusion and Recommendations](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#6-conclusion-and-recommendations-%EF%B8%8F-return)
 
