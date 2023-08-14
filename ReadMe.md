@@ -1,7 +1,7 @@
 # Wine Quality
 ## Analysing Chemical Parameters to Improve the Quality
 
-In this dataset, we have some chemical parameters about types of wine and how they are related with the quality, in a way to set them to improve it. The parameters are: [Testezin](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#calculating-the-initial-wine-quality's-mean)
+In this dataset, we have some chemical parameters about types of wine and how they are related with the quality, in a way to set them to improve it. The parameters are: [Testezin](Calculating the initial wine quality's mean)
 
 - Alcohol
 - Volatile Acidity
