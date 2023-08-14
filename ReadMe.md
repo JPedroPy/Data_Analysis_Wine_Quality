@@ -51,10 +51,10 @@ With the dataset informations, the initial quality mean is:
 
 The initial mean is `5.812`.
 
-### _4. Exploratory Data Analysis (EDA) and Data Analysis Techniques_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _4. Data Analysis Techniques_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
 A mean of `5.812` it's very low about quality. So, the challenge is reach out `7.000`, at least. To help with this challenge, it will be used two artifices: a `Pearson's correlation matrix` and `histogram graphics`, to understand how the variables can interefe in the quality and how they are related to each other. 
 
-### _5. Interpretation of Results_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
+### _5. Exploratory Data Analysis (EDA) and Interpretation of Results_ [⬆️ Return](https://github.com/JPedroPy/Data_Analysis_Wine_Quality#summary)
 The `Pearson's correlation` is very useful in data analysis, because it can show if there's any correlation (weak or strong, direct or indirect) among variables. The libraries [pandas](https://pandas.pydata.org/docs/) and [seaborn](https://seaborn.pydata.org/#) help us with, using the funtion `.corr()` from `pandas` and the `heatmap` from `seaborn`.
 
     import seaborn as sns
